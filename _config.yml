@@ -1,0 +1,23 @@
+# Site settings
+title: Mike Verdicchio
+tagline: Staying hungry, staying foolish.
+email: mikeverdicchio@gmail.com
+description: >
+ Mike Verdicchio is a software engineer at Capital One
+ in NYC with a B.S. in Computer Engineering from the
+ University of Virginia.
+baseurl: ""
+url: "https://mikeverdicchio.github.io/"
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+
+# Data Collections
+collections:
+  experience:
+    output: true
+    permalink: /:collection/:path
+  projects:
+    output: true
+    permalink: /:collection/:path

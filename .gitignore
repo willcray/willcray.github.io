@@ -1,0 +1,12 @@
+# Repository Settings
+.vscode/
+.env
+
+# Python
+__pycache__/
+*.pyc
+env/
+
+# Jekyll
+.sass-cache/
+_site/
