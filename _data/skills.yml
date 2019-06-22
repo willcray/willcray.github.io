@@ -1,15 +1,15 @@
 - name: Computer Languages
   skills:
-  - name: C, C++, C#
+  - name: C, C++
     score: 2
   - name: Java
     score: 1
   - name: JavaScript
-    score: 1
+    score: 0
   - name: JQuery
-    score: 1
+    score: 0
   - name: PHP
-    score: 2
+    score: 1
   - name: Python
     score: 2
 
@@ -22,7 +22,7 @@
   - name: Embedded Programming
     score: 2
   - name: Relational Databases
-    score: 2
+    score: 1
   - name: Version Control (Git)
     score: 2
   - name: Web Development
@@ -31,11 +31,11 @@
 - name: Engineering Programs
   skills:
   - name: MathWorks MATLAB
-    score: 2
-  - name: MathWorks Simulink
     score: 1
-  - name: Mentor Graphics HDL Designer
-    score: 2
+  - name: MathWorks Simulink
+    score: 0
+  - name: Mentor Graphics HDL Designer / Libero SoC
+    score: 1
   - name: NI LabVIEW
     score: 1
   - name: NI Multisim
@@ -45,7 +45,7 @@
   - name: PTC Mathcad
     score: 1
   - name: Wolfram Mathematica
-    score: 1
+    score: 0
 
 - name: Soft Skills
   skills:
