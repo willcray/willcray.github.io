@@ -6,5 +6,8 @@ A repository for my personal website, located at https://www.mikeverdicchio.me. 
 Local Development
 -----------------
 ```bash
-docker-compose up
+make start # Starts the container
+make stop  # Stops the container
+make restart # Refresh the container
+make tail # Shows logs for container
 ```
