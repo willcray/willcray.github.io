@@ -4,7 +4,7 @@ start:
 
 # Stops the Docker container
 stop:
-	@docker-compose down
+	@docker-compose stop
 
 # Starts the Docker container
 restart: stop start
