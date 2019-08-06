@@ -1,42 +1,38 @@
 ---
-layout: accordion
-title: Experience
+layout: page
 permalink: /experience/
 ---
 
 {% assign sorted = site.experience | sort: 'start' | reverse %}
 {% for x in sorted %}
-<div class="card">
-    <div class="card-header" role="tab" id="heading{{ forloop.index }}">
-        <a data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false"
-            aria-controls="collapse{{ forloop.index }}">
-            <div class="d-flex justify-content-between">
-                <h3>[{{ x.company }}]: {{ x.position }}</h3>
-                <h3>{{ x.start | date: "%B %Y" }} -
-                    {% if x.end %}{{ x.end | date: "%B %Y"  }}{% else %}Present{% endif %}</h3>
-            </div>
-        </a>
+
+<div class="row align-items-center">
+    <div class="col-md-12 text-center">
+        <h1 class="tight">{{ x.company }}</h1>
+        <h4>
+            {{ x.position }}
+            <br>
+            {{ x.start | date: "%B %Y" }} - 
+            {% if x.end %}{{ x.end | date: "%B %Y"  }}{% else %}Present{% endif %}
+        </h4>
     </div>
 
-    <div id="collapse{{ forloop.index }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index }}"
-        data-parent="#accordion">
-        <div class="card-body">
-            <div class="col-md-12 text-center">
-                {% if x.video %}
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
-                </div>
-                <br />
-                {% endif %}
+    <div class="col-md-7">
+        {{ x.content }}
+    </div>
 
-                {% if x.picture %}
-                <img src="{{ x.picture | relative_url }}" class="img-fluid">
-                <br />
-                {% endif %}
-
-                {{ x.content }}
-            </div>
+    <div class="col-md-5">
+        {% if x.video %}
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
         </div>
-    </div>
+        {% elsif x.picture %}
+        <img src="{{ x.picture | relative_url }}" class="img-fluid">
+        {% endif %}    </div>
 </div>
+
+{% if forloop.last != true %}
+<hr />
+{% endif %}
+
 {% endfor %}
