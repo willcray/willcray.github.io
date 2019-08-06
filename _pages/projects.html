@@ -6,7 +6,6 @@ permalink: /projects/
 {% assign sorted = site.projects | sort: 'start' | reverse %}
 {% for x in sorted %}
 
-
 <div class="row align-items-center">
     <div class="col-md-12 text-center">
         <h1 class="tight">{{ x.title }}</h1>
@@ -26,9 +25,7 @@ permalink: /projects/
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
         </div>
-        {% endif %}
-
-        {% if x.picture %}
+        {% elsif x.picture %}
         <img src="{{ x.picture | relative_url }}" class="img-fluid">
         {% endif %}
     </div>
