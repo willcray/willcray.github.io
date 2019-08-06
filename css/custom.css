@@ -2,3 +2,7 @@ h1 {
     font-size: 2.5em;
     padding-bottom: 1em;
 }
+
+.tight {
+    padding-bottom: 0em;
+}
