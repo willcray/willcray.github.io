@@ -1,6 +1,6 @@
 # Starts the Docker container
 start:
-	@docker-compose up -d
+	@docker-compose up
 
 # Stops the Docker container
 stop:

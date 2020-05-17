@@ -1,44 +1,44 @@
 - name: Computer Science
   courses:
-  - course: CS 2102 - Discrete Mathematics
-  - course: CS 2110 - Software Development Methods
-  - course: CS 2150 - Program and Data Representation
-  - course: CS 3240 - Advanced Software Development
-  - course: CS 4414 - Operating Systems
-  - course: CS 4740 - Cloud Computing
-  - course: CS 4501 - Programming Languages for the Web
-  - course: CS 4750 - Database Systems
-  - course: CS 4753 - Electronic Commerce Technology
+    - course: CS 2102 - Discrete Mathematics
+    - course: CS 2110 - Software Development Methods
+    - course: CS 2150 - Program and Data Representation
+    - course: CS 3240 - Advanced Software Development
+    - course: CS 4414 - Operating Systems
+    - course: CS 4740 - Cloud Computing
+    - course: CS 4501 - Programming Languages for the Web
+    - course: CS 4750 - Database Systems
+    - course: CS 4753 - Electronic Commerce Technology
 
 - name: Electrical and Computer Engineering
   courses:
-  - course: ECE 2330 - Digital Logic Design
-  - course: ECE 2630 - Fundamentals of Electrical Engineering I
-  - course: ECE 2660 - Fundamentals of Electrical Engineering II
-  - course: ECE 3430 - Introduction to Embedded Computer Systems
-  - course: ECE 3660 - Microelectronic Circuits
-  - course: ECE 3750 - Fundamentals of Electrical Engineering III
-  - course: ECE 4435 - Computer Architecture and Design
-  - course: ECE 4440 - Embedded System Design (Senior Capstone)
-  - course: ECE 4457 - Computer Networks
-  - course: ECE 4502 - Dataflow Programming - Machine Vision (Lab)
+    - course: ECE 2330 - Digital Logic Design
+    - course: ECE 2630 - Fundamentals of Electrical Engineering I
+    - course: ECE 2660 - Fundamentals of Electrical Engineering II
+    - course: ECE 3430 - Introduction to Embedded Computer Systems
+    - course: ECE 3660 - Microelectronic Circuits
+    - course: ECE 3750 - Fundamentals of Electrical Engineering III
+    - course: ECE 4435 - Computer Architecture and Design
+    - course: ECE 4440 - Embedded System Design (Senior Capstone)
+    - course: ECE 4457 - Computer Networks
+    - course: ECE 4502 - Dataflow Programming - Machine Vision (Lab)
 
 - name: Math, Science, and Engineering
   courses:
-  - course: APMA 2120 - Multivariable Calculus
-  - course: APMA 2130 - Ordinary Differential Equations
-  - course: APLMA 3100 - Probability
-  - course: CHEM 1610 - Introductory Chemistry for Engineers
-  - course: ENGR 1620 - Introduction to Engineering
-  - course: MSE 2090 - Introductory Science and Engineering of Materials
-  - course: PHYS 1425/2415 - General Physics I/II
-  - course: SYS 2202 - Data and Information Engineering
+    - course: APMA 2120 - Multivariable Calculus
+    - course: APMA 2130 - Ordinary Differential Equations
+    - course: APLMA 3100 - Probability
+    - course: CHEM 1610 - Introductory Chemistry for Engineers
+    - course: ENGR 1620 - Introduction to Engineering
+    - course: MSE 2090 - Introductory Science and Engineering of Materials
+    - course: PHYS 1425/2415 - General Physics I/II
+    - course: SYS 2202 - Data and Information Engineering
 
 - name: Other Courses
   courses:
-  - course: COMM 4680 - Entrepreneurship
-  - course: ECON 2010 - Principles of Microeconomics
-  - course: ECON 2020 - Principles of Macroeconomics
-  - course: STS 1500 - Science, Technology, and Contemporary Issues
-  - course: STS 2620 - Science and Technology Public Policy
-  - course: STS 4500/4600 - Engineering Ethics
+    - course: COMM 4680 - Entrepreneurship
+    - course: ECON 2010 - Principles of Microeconomics
+    - course: ECON 2020 - Principles of Macroeconomics
+    - course: STS 1500 - Science, Technology, and Contemporary Issues
+    - course: STS 2620 - Science and Technology Public Policy
+    - course: STS 4500/4600 - Engineering Ethics
