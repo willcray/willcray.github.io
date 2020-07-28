@@ -1697,7 +1697,7 @@ body {
   color: #000000;
   font-size: 15pt;
   line-height: 2em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-weight: 300;
 }
 
@@ -1719,7 +1719,7 @@ textarea,
 select {
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-weight: 300;
 }
 
@@ -2284,7 +2284,7 @@ header .icon.circled {
 #header {
   position: relative;
   background: linear-gradient(rgba(50, 30, 67, 0.5), rgba(50, 30, 67, 0.5)),
-    url("../images/header-mike.jpg") no-repeat center;
+    url("../images/header-will.jpg") no-repeat center;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -2322,7 +2322,7 @@ header .icon.circled {
   color: #fff;
   font-size: 3em;
   line-height: 1em;
-  font-family: "Palatino", "URW Palladio L", serif;
+  font-family: "Tahoma", sans-serif;
 }
 
 #header h1 a {

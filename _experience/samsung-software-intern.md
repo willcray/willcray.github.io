@@ -5,7 +5,7 @@ company: Samsung Electronics
 position: Software R&D Intern
 start: 2014-07-01
 end: 2014-08-01
-picture: /images/experience/samsung.jpg
+picture: /images/experience/headshot_upscaled.jpg
 ---
 
 After my first year at UVA, I was given the opportunity to travel to Gyeonggi-Do, Korea to intern with Samsung Electronics. Part of the UVA Global Internships Program, I went with six other UVA students to work for the Korean electronic giant. We were separated into two teams, and my team worked in the Software R&D Center, specifically with their Core IP team. Lasting four weeks, we were given projects to expand our knowledge in the field. My partner (Willie) and I studied the new ARM processor architecture, familiarizing ourselves with how it works and its modifications from its old 32-bit model. In addition, we researched ARM's TrustZone technology, and gave weekly presentations to the senior engineers with our findings.
