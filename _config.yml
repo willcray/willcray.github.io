@@ -1,13 +1,14 @@
 # Site settings
-title: Mike Verdicchio
-tagline: Currently learning Node.js and React
-email: mikeverdicchio@gmail.com
+title: Will Cray
+tagline: IQ meets EQ.
+email: will.c.cray@gmail.com
 description: >
-  Mike Verdicchio is a software engineer at Capital One
-  in NYC with a B.S. in Computer Engineering from the
-  University of Virginia.
+  Will is a M.S. in Computer Science with a focus on AI candidate
+  at The University of Texas at Austin, a Freelance Data Scientist, a
+  former Intel Autonomous Driving engineer and a graduate of the University of
+  Virginia with a B.S. as a Computer and Electrical Engineering double major.
 baseurl: ""
-url: "https://mikeverdicchio.github.io/"
+url: "https://willcray.com"
 
 # Build settings
 markdown: kramdown
