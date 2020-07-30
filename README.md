@@ -5,7 +5,7 @@ A repository for my personal website, located at https://www.willcray.com. This 
 
 Local Development
 -----------------
-[Install Docker Desktop](https://docs.docker.com/get-docker/) and ensure it's running. Then...
+[Install Docker Desktop](https://docs.docker.com/get-docker/) and ensure it's running.
 
 ```bash
 make start # Starts the container
