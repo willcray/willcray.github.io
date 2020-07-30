@@ -1,61 +1,48 @@
 - name: Computer Languages
   skills:
-    - name: C, C++
-      score: 2
-    - name: JavaScript / Node.js
-      score: 0
-    - name: Go
-      score: 1
-    - name: PHP
-      score: 0
     - name: Python
       score: 2
-
-- name: Software Development Skills
-  skills:
-    - name: Amazon Web Services
-      score: 0
-    - name: Docker
+    - name: C, C++
       score: 2
+    - name: Java
+      score: 1
+    - name: Go
+      score: 1
+    - name: Rust
+      score: 1
+    - name: SQL
+      score: 1
+
+- name: Libraries, Frameworks & Environments
+  skills:
+    - name: PyTorch
+      score: 2
+    - name: TensorFlow + Keras
+      score: 0
+    - name: Tensorboard
+      score: 1
+    - name: scikit-learn
+      score: 1
+    - name: numpy
+      score: 2
+    - name: pandas
+      score: 1
+    - name: Postgres
+      score: 1
+    - name: CUDA
+      score: 0
+    - name: Amazon Web Services
+      score: 1
+    - name: Docker
+      score: 1
     - name: Embedded Programming
       score: 1
-    - name: Relational Databases (Postgres)
+    - name: Git
+      score: 2
+    - name: GDB
       score: 1
-    - name: NoSQL (ElasticSearch)
-      score: 0
-    - name: Version Control (Git)
+    - name: Visual Studio Code
       score: 2
-    - name: Backend Web Development
-      score: 2
+    - name: Linux
+      score: 1
 
-- name: Engineering Programs
-  skills:
-    - name: MathWorks MATLAB
-      score: 1
-    - name: MathWorks Simulink
-      score: 0
-    - name: Mentor Graphics HDL Designer
-      score: 1
-    - name: Libero SoC
-      score: 1
-    - name: NI LabVIEW
-      score: 1
-    - name: NI Multisim
-      score: 2
-    - name: NI Ultiboard
-      score: 2
-
-- name: Soft Skills
-  skills:
-    - name: Communication
-      score: 2
-    - name: Leadership
-      score: 2
-    - name: Project Management
-      score: 1
-    - name: Public Speaking
-      score: 1
-    - name: Teamwork / Team Building
-      score: 2
-    - name: Time Management
-      score: 1
