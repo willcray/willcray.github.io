@@ -5,14 +5,44 @@ permalink: /education/
 ---
 
 <div class="col-md-12 text-center">
-    <h3>B.S. Computer Engineering | University of Virginia | School of Engineering & Applied Science</h3>
-    <a class="image featured"><img src="/images/education/UVA.jpg" /></a>
+    <h3>M.S. Computer Science | University of Texas at Austin</h3>
+    <a class="image featured"><img src="/images/education/ut.jpg" /></a>
 </div>
 
 <br>
 
 <div class="row">
-    {% for department in site.data.courses %}
+    {% for department in site.data.ut_courses %}
+    <div class="col-md-6">
+        <div class="row">
+            <h3>{{ department.name }}</h3>
+        </div>
+
+        <div class="row">
+            <ul style="list-style-type:circle">
+                {% for course in department.courses %}
+                <li>{{ course.course }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="col-md-12 text-center">
+    <h3>B.S. Electrical and Computer Engineering, Business Minor | University of Virginia | School of Engineering & Applied Science</h3>
+    <a class="image featured"><img src="/images/education/uva-sunset.jpg" /></a>
+</div>
+
+<br>
+
+<div class="row">
+    {% for department in site.data.uva_courses %}
     <div class="col-md-6">
         <div class="row">
             <h3>{{ department.name }}</h3>

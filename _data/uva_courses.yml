@@ -1,0 +1,35 @@
+- name: Computer Science
+  courses:
+  - course: CS 4414 - Operating Systems
+  - course: CS 3240 - Advanced Software Development
+  - course: CS 2150 - Program and Data Representation
+  - course: CS 2110 - Software Development Methods
+  - course: CS 2102 - Discrete Mathematics
+  - course: CS 1112 - Introduction to Programming
+
+- name: Electrical and Computer Engineering
+  courses:
+    - course: ECE 4440 - Embedded System Design (Senior Capstone)
+    - course: ECE 4501 - Digital Image Processing
+    - course: ECE 4750 - Digital Signal Processing
+    - course: ECE 4457 - Computer Networks
+    - course: ECE 4435 - Computer Architecture and Design
+    - course: ECE 3430 - Introduction to Embedded Computer Systems
+    - course: ECE 2330 - Digital Logic Design
+    - course: ECE 3660 - Microelectronic Circuits
+    - course: ECE 3750 - Fundamentals of Electrical Engineering III
+    - course: ECE 2660 - Fundamentals of Electrical Engineering II
+    - course: ECE 2630 - Fundamentals of Electrical Engineering I
+
+- name: Mathematics
+  courses:
+    - course: APMA 2120 - Multivariable Calculus
+    - course: APMA 2130 - Ordinary Differential Equations
+    - course: APLMA 3100 - Probability
+
+- name: Business
+  courses:
+    - course: STS 4810 - New Product Development
+    - course: COMM 3410 - Commercial Law I
+    - course: STS 2830 - Startup Operations for Entrepreneurs
+    - course: COMM 2010 - Introduction to Financial Accounting

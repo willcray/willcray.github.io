@@ -1,0 +1,15 @@
+- name: Applications
+  courses:
+    - course: CS 391L - Machine Learning
+    - course: CS 395T - Deep Learning
+    - course: CS 394R - Reinforcement Learning Theory & Practice
+
+- name: Theory
+  courses:
+      - course: CS 388G - Algorithms Techniques and Theories
+      - course: CS 395T - Online Learning & Optimization
+
+- name: Systems
+  courses:
+    - course: CS 380P - Parallel Systems
+    - course: CS 511 - Data Processing at Scale
