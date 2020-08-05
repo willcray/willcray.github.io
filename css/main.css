@@ -1697,7 +1697,7 @@ body {
   color: #000000;
   font-size: 15pt;
   line-height: 2em;
-  font-family: "Tahoma", sans-serif;
+  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
 }
 
@@ -1719,7 +1719,7 @@ textarea,
 select {
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: "Tahoma", sans-serif;
+  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
 }
 
@@ -2164,6 +2164,18 @@ table.default tfoot {
   border-top: solid 2px #e5e5e5;
 }
 
+/* Custom Highlighting */
+.text-highlighted {
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    padding: .09em;
+    margin: -.09em;
+    margin-bottom: -0.09em;
+    background: rgba(50, 30, 67, 0.5);
+}
+
 /* Button */
 
 input[type="button"],
@@ -2319,10 +2331,11 @@ header .icon.circled {
 }
 
 #header h1 {
-  color: #fff;
-  font-size: 3em;
-  line-height: 1em;
-  font-family: "Tahoma", sans-serif;
+  font-size: 17;
+  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.85em;
+  color: white;
 }
 
 #header h1 a {
@@ -2571,13 +2584,13 @@ body.homepage.is-loading #header:after {
   position: relative;
   overflow: hidden;
   padding: 3em 0 0em 0;
-  background: #2b252c;
+  background: #413843;
   color: #fff;
 }
 
 #footer .icon.circled {
   background: #fff;
-  color: #2b252c;
+  color: #5c505e;
 }
 
 #footer header {
@@ -2606,6 +2619,7 @@ body.homepage.is-loading #header:after {
   text-align: center;
   color: rgba(128, 128, 128, 0.75);
   font-size: 0.8em;
+  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
   cursor: default;
 }
 
