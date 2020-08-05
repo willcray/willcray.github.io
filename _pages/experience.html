@@ -10,9 +10,9 @@ permalink: /experience/
     <div class="col-md-12 text-center">
         <h1 class="tight">{{ x.company }}</h1>
         <h4>
-            {{ x.position }}
+            <strong>{{ x.position }}</strong>
             <br />
-            {{ x.start | date: "%B %Y" }} - 
+            {{ x.start | date: "%B %Y" }} -
             {% if x.end %}{{ x.end | date: "%B %Y"  }}{% else %}Present{% endif %}
         </h4>
     </div>
@@ -28,7 +28,7 @@ permalink: /experience/
         </div>
         {% elsif x.picture %}
         <img src="{{ x.picture | relative_url }}" class="img-fluid">
-        {% endif %}    
+        {% endif %}
     </div>
 </div>
 

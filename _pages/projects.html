@@ -3,14 +3,14 @@ layout: page
 permalink: /projects/
 ---
 
-{% assign sorted = site.projects | sort: 'start' | reverse %}
-{% for x in sorted %}
+{% assign projs = site.projects %}
+{% for x in projs %}
 
 <div class="row align-items-center">
     <div class="col-md-12 text-center">
         <h1 class="tight">{{ x.title }}</h1>
         <h4>
-            {{ x.driver }}
+            <strong>{{ x.driver }}</strong>
             <br />
             {{ x.start | date: "%B %Y"  }}{% if x.end %} - {{ x.end | date: "%B %Y"  }} {% endif %}
         </h4>
