@@ -16,4 +16,4 @@ make tail # Shows logs for container
 
 Credits
 -----------------
-Thank you to my classmate at UVa, [Mike Verdicchio](https://github.com/MikeVerdicchio), for helping me learn how to create this website. His code provided an excellent framework for me to build upon.
+Thank you to my classmate at UVA, [Mike Verdicchio](https://github.com/MikeVerdicchio), for helping me learn how to create this website. His code provided an excellent framework for me to build upon.
