@@ -1,48 +1,51 @@
-- name: Computer Languages
+- name: Languages
   skills:
-    - name: Python
-      score: 2
-    - name: C, C++
-      score: 2
-    - name: Java
-      score: 1
-    - name: Go
-      score: 1
-    - name: Rust
-      score: 1
-    - name: SQL
-      score: 1
+  - name: Python
+    score: 2
+  - name: C, C++
+    score: 2
+  - name: Java
+    score: 1
+  - name: Go
+    score: 0
+  - name: Rust
+    score: 0
+  - name: SQL/Postgres
+    score: 1
 
-- name: Libraries, Frameworks & Environments
+- name: Libraries
   skills:
-    - name: PyTorch
-      score: 2
-    - name: TensorFlow + Keras
-      score: 0
-    - name: Tensorboard
-      score: 1
-    - name: scikit-learn
-      score: 1
-    - name: numpy
-      score: 2
-    - name: pandas
-      score: 1
-    - name: Postgres
-      score: 1
-    - name: CUDA
-      score: 0
-    - name: Amazon Web Services
-      score: 1
-    - name: Docker
-      score: 1
-    - name: Embedded Programming
-      score: 1
-    - name: Git
-      score: 2
-    - name: GDB
-      score: 1
-    - name: Visual Studio Code
-      score: 2
-    - name: Linux
-      score: 1
+  - name: scikit-learn
+    score: 1
+  - name: numpy
+    score: 2
+  - name: Tensorboard
+    score: 1
+  - name: pandas
+    score: 1
+  - name: CUDA
+    score: 0
 
+- name: Frameworks
+  skills:
+  - name: PyTorch
+    score: 2
+  - name: TensorFlow + Keras
+    score: 0
+  - name: Docker
+    score: 1
+  - name: Git
+    score: 2
+
+- name: Environments
+  skills:
+  - name: Visual Studio Code
+    score: 2
+  - name: GDB
+    score: 1
+  - name: Amazon Web Services
+    score: 0
+  - name: Embedded Programming
+    score: 1
+  - name: Linux
+    score: 1

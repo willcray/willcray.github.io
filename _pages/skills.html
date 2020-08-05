@@ -10,8 +10,8 @@ permalink: /skills/
         <div class="row">
             <h3>{{ category.name }}</h3>
         </div>
-        {% assign sorted = category.skills | sort: 'score' | reverse %}
-        {% for skill in sorted %}
+        {% assign skills = category.skills %}
+        {% for skill in skills %}
         <div class="row">
             <div class="col">
                 {{ skill.name }}
