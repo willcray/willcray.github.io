@@ -49,3 +49,16 @@
     score: 1
   - name: Linux
     score: 1
+
+- name: Life Skills
+  skills:
+  - name:
+    score: 2
+  - name: GDB
+    score: 1
+  - name: Amazon Web Services
+    score: 0
+  - name: Embedded Programming
+    score: 1
+  - name: Linux
+    score: 1
