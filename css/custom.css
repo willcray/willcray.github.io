@@ -3,6 +3,40 @@ h1 {
     padding-bottom: 1em;
 }
 
+h3 {
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: rgba(61, 35, 84, 0.75);
+}
+
+/* Custom Highlighting */
+.text-highlighted {
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    padding: .09em;
+    margin: -.09em;
+    margin-bottom: -0.09em;
+    background: rgba(61, 35, 84, 0.75);
+}
+
+#header {
+    background: linear-gradient(rgba(61, 35, 84, 0.5), rgba(61, 35, 84, 0.5)),
+    url("../images/header-will.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 .tight {
     padding-bottom: 0em;
+}
+
+
+ul.icons {
+    background:  #413843;
 }

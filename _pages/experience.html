@@ -10,7 +10,7 @@ permalink: /experience/
     <div class="col-md-12 text-center">
         <h1 class="tight">{{ x.company }}</h1>
         <h4>
-            <strong>{{ x.position }}</strong>
+            {{ x.position }}
             <br />
             {{ x.start | date: "%B %Y" }} -
             {% if x.end %}{{ x.end | date: "%B %Y"  }}{% else %}Present{% endif %}

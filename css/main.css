@@ -1690,6 +1690,13 @@ body {
   }
 }
 
+
+
+
+/* RELEVANT */
+
+
+
 /* Basic */
 
 body {
@@ -2164,18 +2171,6 @@ table.default tfoot {
   border-top: solid 2px #e5e5e5;
 }
 
-/* Custom Highlighting */
-.text-highlighted {
-    font-style: normal;
-    color: #fff;
-    font-weight: 400;
-    display: inline-block;
-    padding: .09em;
-    margin: -.09em;
-    margin-bottom: -0.09em;
-    background: rgba(50, 30, 67, 0.5);
-}
-
 /* Button */
 
 input[type="button"],
@@ -2295,11 +2290,6 @@ header .icon.circled {
 
 #header {
   position: relative;
-  background: linear-gradient(rgba(50, 30, 67, 0.5), rgba(50, 30, 67, 0.5)),
-    url("../images/header-will.jpg") no-repeat center;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
   color: #fff;
   text-align: center;
   padding: 7.5em 0 2em 0;
@@ -2590,7 +2580,7 @@ body.homepage.is-loading #header:after {
 
 #footer .icon.circled {
   background: #fff;
-  color: #5c505e;
+  color: #3c353e;
 }
 
 #footer header {
