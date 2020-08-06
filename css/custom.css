@@ -12,6 +12,10 @@ h3 {
     color: rgba(61, 35, 84, 0.75);
 }
 
+h5 {
+    font-size: 1em;
+}
+
 /* Custom Highlighting */
 .text-highlighted {
     font-style: normal;
