@@ -23,14 +23,14 @@
     score: 1
   - name: pandas
     score: 1
-  - name: CUDA
-    score: 0
 
 - name: Frameworks
   skills:
   - name: PyTorch
     score: 2
   - name: TensorFlow + Keras
+    score: 0
+  - name: CUDA
     score: 0
   - name: Docker
     score: 0
@@ -41,7 +41,7 @@
   skills:
   - name: Autonomous Vehicles
     score: 1
-  - name: Safety of Robots
+  - name: Safety-Critical Systems
     score: 2
   - name: GDB
     score: 1
