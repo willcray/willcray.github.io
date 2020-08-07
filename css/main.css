@@ -3047,7 +3047,7 @@ body.homepage.is-loading #header:after {
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     display: block;
-    height: 25vh;
+    height: 30vh;
     left: 0;
     overflow-y: auto;
     position: fixed;
