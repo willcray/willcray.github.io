@@ -28,14 +28,6 @@ h5 {
     background: rgba(61, 35, 84, 0.70);
 }
 
-#header {
-    background: linear-gradient(rgba(61, 35, 84, 0.5), rgba(61, 35, 84, 0.5)),
-    url("/images/header-will.jpg") no-repeat center;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
 .tight {
     padding-bottom: 0em;
 }
