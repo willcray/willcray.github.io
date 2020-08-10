@@ -16,6 +16,32 @@ h5 {
     font-size: 1em;
 }
 
+@media screen and (max-width: 4000px) {
+    /* Basic */
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 14pt;
+        line-height: 1.75em;
+    }
+
+    /* Header */
+    /* Header */
+
+    #header {
+        background: linear-gradient(rgba(61, 35, 84, 0.5), rgba(61, 35, 84, 0.5)),
+        url("/images/header-will.jpg") no-repeat center;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        color: #fff;
+        text-align: center;
+        padding: 7.5em 0 2em 0;
+        cursor: default;
+    }
+}
+
 /* Custom Highlighting */
 .text-highlighted {
     font-style: normal;
@@ -63,3 +89,4 @@ ul.icons {
             background-color:rgba(255, 0, 0, 0.75);
             transition:width .6s ease
         }
+
