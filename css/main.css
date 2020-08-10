@@ -1704,7 +1704,7 @@ body {
   color: #000000;
   font-size: 15pt;
   line-height: 2em;
-  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Eina,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
 }
 
@@ -1726,7 +1726,7 @@ textarea,
 select {
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Eina,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
 }
 
@@ -2326,7 +2326,7 @@ header .icon.circled {
 
 #header h1 {
   font-size: 17;
-  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Eina,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   line-height: 1.85em;
   color: white;
@@ -2613,7 +2613,7 @@ body.homepage.is-loading #header:after {
   text-align: center;
   color: rgba(128, 128, 128, 0.75);
   font-size: 0.8em;
-  font-family: Eina,system-ui,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Eina,"Helvetica Neue",Helvetica,Arial,sans-serif;
   cursor: default;
 }
 
