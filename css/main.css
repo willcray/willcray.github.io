@@ -2289,7 +2289,7 @@ header .icon.circled {
 /* Header */
 
 #header {
-    background: linear-gradient(rgba(61, 35, 84, 0.5), rgba(61, 35, 84, 0.5)),
+    background: linear-gradient(rgba(61, 35, 84, 0.25), rgba(61, 35, 84, 0.2)),
     url("/images/header-will.jpg") no-repeat center;
     background-size: cover;
     background-position: center center;
