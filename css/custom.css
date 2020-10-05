@@ -1,3 +1,11 @@
+#footer {
+  position: relative;
+  overflow: hidden;
+  padding: 3em 0 0em 0;
+  background: rgba(61, 35, 84, 0.70);
+  color: #fff;
+}
+
 h1 {
     font-size: 2.5em;
     padding-bottom: 1em;
@@ -9,7 +17,7 @@ h3 {
 
 h2,
 h3 {
-    color: rgba(61, 35, 84, 0.75);
+    color: rgba(61, 35, 84, 0.65);
 }
 
 h5 {
@@ -26,7 +34,7 @@ h5 {
     padding: .09em;
     margin: -.09em;
     margin-bottom: -0.09em;
-    background: rgba(61, 35, 84, 0.75);
+    background: rgba(61, 35, 84, 0.65);
 }
 
 .tight {
@@ -35,7 +43,7 @@ h5 {
 
 
 ul.icons {
-    background:  #413843;
+    background: rgba(61, 35, 84, 0);
 }
 
 @keyframes progress-bar-stripes{
