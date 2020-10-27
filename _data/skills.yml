@@ -4,6 +4,10 @@
     score: 2
   - name: C, C++
     score: 2
+  - name: TypeScript/Javascript
+    score: 1
+  - name: Kotlin
+    score: 1
   - name: Java
     score: 1
   - name: Go
@@ -15,24 +19,24 @@
 
 - name: Libraries
   skills:
-  - name: scikit-learn
-    score: 1
+  - name: PyTorch
+    score: 2
   - name: numpy
     score: 2
+  - name: scikit-learn
+    score: 1
   - name: Tensorboard
     score: 1
   - name: pandas
     score: 1
+  - name: TensorFlow + Keras
+    score: 0
 
 - name: Frameworks
   skills:
-  - name: PyTorch
-    score: 2
-  - name: TensorFlow + Keras
-    score: 0
+  - name: React Native
+    score: 1
   - name: CUDA
-    score: 0
-  - name: Docker
     score: 0
   - name: Git
     score: 2
@@ -43,6 +47,8 @@
     score: 1
   - name: Safety-Critical Systems
     score: 2
+  - name: Docker
+    score: 0
   - name: GDB
     score: 1
   - name: Visual Studio Code

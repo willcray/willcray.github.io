@@ -7,7 +7,7 @@ start: 2019-11-15
 end: 2019-12-18
 picture: /images/projects/ice-hockey.gif
 ---
-The Deep Learning final project tasked us with creating agents that could autonomously play 2v2 ice hockey against other teams in the class. The game took place within SuperPyTuxKart (an open source version of MarioKart). We used CNNs implemented in PyTorch to track the location of the puck and a custom controller to both score and defend. The custom controller operated as a state machine that leveraged the known player of the position and the visually-predicted location of the puck. Our grades were entirely based on how our team performed against other teams &#150; we took 2nd place!
+The Deep Learning final project tasked us with creating agents that could autonomously play 2v2 ice hockey against other teams in the class. The game took place within SuperPyTuxKart (an open source version of MarioKart). We used convolutional neural nets implemented in PyTorch to track the location of the puck and a custom controller to both score and defend. The custom controller operated as a state machine that leveraged the known player of the position and the visually-predicted location of the puck. Our grades were entirely based on how our team performed against other teams &#150; we took 2nd place!
 
 [Assignment Details](http://www.philkr.net/dl_class/homework/final/)
 
