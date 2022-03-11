@@ -3,6 +3,8 @@ layout: page
 title: Skills and Abilities
 permalink: /skills/
 ---
+<div>
+</div>
 <div class="row">
 
     {% for category in site.data.skills %}
@@ -20,13 +22,13 @@ permalink: /skills/
                 <div class="progress" style="height: 2em;">
                     {% if skill.score == 0 %}
                     <div class="progress-bar bg-warning" role="progressbar" style="width: 33%" aria-valuenow="33"
-                        aria-valuemin="0" aria-valuemax="100">Familiar</div>
+                        aria-valuemin="0" aria-valuemax="100">Brief Use</div>
                     {% elsif skill.score == 1 %}
                     <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0"
-                        aria-valuemax="100">Medium</div>
+                        aria-valuemax="100">Extensive Use</div>
                     {% elsif skill.score == 2 %}
                     <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100"
-                        aria-valuemin="0" aria-valuemax="100">Strong</div>
+                        aria-valuemin="0" aria-valuemax="100">Extensive and Recent Use</div>
 
                     {% elsif skill.score == -1 %}
                     <div class="progress-bar-custom" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"

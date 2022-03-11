@@ -2347,7 +2347,7 @@ header .icon.circled {
   padding: 0;
 }
 
-#header hr {
+/* #header hr {
   top: 1.5em;
   margin-bottom: 3em;
   border-bottom-color: rgba(192, 192, 192, 0.35);
@@ -2357,7 +2357,7 @@ header .icon.circled {
 #header hr:before,
 #header hr:after {
   background: rgba(192, 192, 192, 0.35);
-}
+} */
 
 #header footer {
   margin: 1em 0 0 0;
