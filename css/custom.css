@@ -45,13 +45,13 @@ h5 {
 ul.icons {
     background: rgba(61, 35, 84, 0);
 }
-/* 
-.progress {
-    align-items: center;
-} */
 
 .row .progress-row {
     align-items: center;
+}
+
+.menu {
+    color:white
 }
 
 @keyframes progress-bar-stripes{
