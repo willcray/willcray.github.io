@@ -25,13 +25,14 @@ permalink: /projects/
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
         </div>
+        {% elsif x.video_file %}
+        <video autoplay muted loop playsinline preload="auto" style="width: 100%; height: auto;">
+            <source src="{{ x.video_file | relative_url | replace: '.mp4', '.webm' }}" type="video/webm">
+            <source src="{{ x.video_file | relative_url }}" type="video/mp4">
+            <img src="{{ x.picture | relative_url }}" class="img-fluid" alt="Fallback image">
+        </video>
         {% elsif x.picture %}
         <img src="{{ x.picture | relative_url }}" class="img-fluid">
-        {% elsif x.video_file %}
-        <video autoplay muted loop playsinline width="100%">
-            <source src="{{ x.video_file | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
         {% endif %}
     </div>
 </div>
