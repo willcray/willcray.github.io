@@ -1,13 +1,11 @@
 # Site settings
 title: Will Cray
-tagline: IQ meets EQ.
+tagline: Will Cray's Personal Website
 
 email: will@willcray.com
 description: >
-  Will Cray is a M.S. in Computer Science with a focus on AI candidate
-  at The University of Texas at Austin (UT), a Freelance Data Scientist, a
-  former Intel Autonomous Driving engineer and a graduate of the University of
-  Virginia (UVA) with a B.S. as a Computer and Electrical Engineering double major.
+  Will Cray is a Senior Machine Learning Engineer at Dexterity Robotics,
+  former Intel Autonomous Driving engineer and a graduate of UT Austin and UVA.
 baseurl: ""
 url: "https://willcray.com"
 
