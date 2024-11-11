@@ -27,6 +27,11 @@ permalink: /projects/
         </div>
         {% elsif x.picture %}
         <img src="{{ x.picture | relative_url }}" class="img-fluid">
+        {% elsif x.video_file %}
+        <video autoplay muted loop playsinline width="100%">
+            <source src="{{ x.video_file | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         {% endif %}
     </div>
 </div>
