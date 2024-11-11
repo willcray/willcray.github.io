@@ -10,7 +10,7 @@ permalink: /projects/
     <div class="col-md-12 text-center">
         <h1 class="tight">{{ x.title }}</h1>
         <h4>
-            {{ x.driver }}
+            <strong>{{ x.driver }}</strong>
             <br />
             {{ x.start | date: "%B %Y"  }}{% if x.end %} - {{ x.end | date: "%B %Y"  }} {% endif %}
         </h4>
@@ -25,12 +25,6 @@ permalink: /projects/
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
         </div>
-        {% elsif x.video_file %}
-        <video autoplay muted loop playsinline preload="auto" style="width: 100%; height: auto;">
-            <source src="{{ x.video_file | relative_url | replace: '.mp4', '.webm' }}" type="video/webm">
-            <source src="{{ x.video_file | relative_url }}" type="video/mp4">
-            <img src="{{ x.picture | relative_url }}" class="img-fluid" alt="Fallback image">
-        </video>
         {% elsif x.picture %}
         <img src="{{ x.picture | relative_url }}" class="img-fluid">
         {% endif %}
