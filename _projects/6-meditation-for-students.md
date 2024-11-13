@@ -1,8 +1,8 @@
 ---
 layout: page
 categories: UVA
-company: Meditation for Students
-position: Founder and President
+title: Founded Meditation for Students
+driver: Student Organization - University of Virginia
 start: 2016-05-01
 end: 2017-05-07
 picture: /images/experience/m4s.jpg
