@@ -1,7 +1,7 @@
 ---
 layout: page
 categories: UVA
-title: Founded Meditation for Students
+title: Meditation for Students - Founder
 driver: Student Organization - University of Virginia
 start: 2016-05-01
 end: 2017-05-07
