@@ -8,10 +8,10 @@ Local Development
 [Install Docker Desktop](https://docs.docker.com/get-docker/) and ensure it's running.
 
 ```bash
-make start # Starts the container
-make stop  # Stops the container
-make restart # Refresh the container
-make tail # Shows logs for container
+docker compose up # Starts the container
+docker compose down # Stops the container
+docker compose restart # Refresh the container
+docker compose logs # Shows logs for container
 ```
 
 Credits
